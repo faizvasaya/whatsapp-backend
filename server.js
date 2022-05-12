@@ -9,10 +9,10 @@ import cors from "cors";
 const app = express();
 const port = process.env.PORT || 9000;
 const pusher = new Pusher({
-  appId: "1408000",
-  key: "2eb4dd2d1845dadaadb0",
-  secret: "e8010e63fec3be9aa766",
-  cluster: "ap2",
+  appId: "",
+  key: "",
+  secret: "",
+  cluster: "",
   useTLS: true,
 });
 
@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(cors());
 
 // DB Configuration
-const connectionURL = `mongodb+srv://faiztherocker:faiztherocker@cluster0.ed9du.mongodb.net/whatsappdb?retryWrites=true&w=majority`;
+const connectionURL = ``;
 mongoose.connect(connectionURL);
 
 const db = mongoose.connection;

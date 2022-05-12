@@ -23,6 +23,7 @@ whatsapp-backend uses a number of open source projects to work properly:
 
 - Add the `connectionURL` value in server.js. It should be the complete connection URL of the mongodb database that you're willing to use.
 - Create an account on [Pusher], obtain credentials and use it to replace values for `pusher` in server.js file.
+- Companion frontend repository is available here: [whatsapp-frontend](https://github.com/faizvasaya/whatsapp-frontend)
 
 ## Installation
 
